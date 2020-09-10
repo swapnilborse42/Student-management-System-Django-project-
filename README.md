@@ -27,6 +27,72 @@ Parents - This is the pannel for parents. parents can access parents pannel by l
 
 Anyone visits site can submit feedback for collage.
 
+# packages installed in virtial environment with there version
+astroid==2.2.5
+colorama==0.4.1
+Django==2.2.5
+django-pgfields==1.4.4
+isort==4.3.21
+lazy-object-proxy==1.4.2
+mccabe==0.6.1
+psycopg2==2.8.3
+pylint==2.3.1
+pytz==2019.2
+six==1.12.0
+sqlparse==0.3.0
+typed-ast==1.4.0
+wrapt==1.11.2
+
+# setup 
+1. Download project zip and extract it.<br>
+1.1. Install " postgresql-9.5.19-1-windows-x64.exe " inside zip <br>
+2. Open the project folder inside visual studio code<br>
+3. press ctrl + shift + p or view -> command palette and select the virtual environment name as env:venv.<br>
+4. press <b>ctrl + shift +  `<b> --- will open terminal inside virtual environment.<br>
+5. In terminal python manage.py runserver to run project.<br>
+6. If error occours for package missing then install above version for that specified package.<br>
+  In my case errors are solve by installing these (after setup for 2nd time from git)-<br>
+   postgresql-9.5.19-1-windows-x64.exe
+  
+# Django Tutorial in Visual Studio Code- (some common commands in use)
+  Create a project virual environment for the Django tutorial.<br>
+  #Windows<br>
+  python -m venv env<br>
+  In VS Code, open the Command Palette (View > Command Palette or (Ctrl+Shift+P)). Then select the Python: Select Interpreter command:<br>
+  The command presents a list of available interpreters that VS Code can locate automatically. select the virtual environment in your project folder<br>
+  
+  Install Django in the virtual environment by running one of the following commands in the VS Code Terminal:<br>
+  python -m pip install django<br>
+  
+  Create the Django project<br>
+  In the VS Code Terminal where your virtual environment is activated, run the following command:<br>
+  django-admin startproject web_project .<br>
+  
+  Create a Django app<br>
+  In the VS Code Terminal with your virtual environment activated, run the administrative utility's startapp command in your project folder (where manage.py resides):<br>
+  python manage.py startapp hello.<br>
+  
+  In the VS Code Terminal, again with the virtual environment activated, run the development server with python manage.py runserver and open a browser to http://127.0.0.1:8000/    to see a project home page<br>
+  
+  After modifing model files run following commands to make changes inside database<br>
+  python manage.py makemigrations<br>
+  python manage.py migrate<br>
+  
+  to accesee Django admin pannel(/admin) to make entry inside database we need to create a superuser<br>
+  python manage.py createsuperuser<br>
+  
+  # some references to learn Django-
+  https://code.visualstudio.com/docs/python/tutorial-django <br>
+  https://docs.djangoproject.com/en/2.2/ref/models/fields/<br>
+  https://djangobook.com/mdj2-models/ <br>
+  https://docs.djangoproject.com/en/3.1/topics/db/queries/ <br>
+  https://medium.com/@9cv9official/creating-a-django-web-application-with-a-postgresql-database-on-windows-c1eea38fe294 <br>
+  https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/ <br>
+  https://books.agiliq.com/projects/django-orm-cookbook/en/latest/select_some_fields.html <br>
+  https://bootsnipp.com/snippets/dldxB <br>
+
+  
+# screenshots (click to view in large)
 
 <img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/1.png" width="500" height="500"/><br>
 <img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/2.png" width="500" height="500"/><br>
@@ -39,7 +105,7 @@ Anyone visits site can submit feedback for collage.
 <img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/9.png" width="500" height="500"/><br>
 <img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/10.png" width="500" height="500"/><br>
 <img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/11.png" width="500" height="500"/><br>
-<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/21.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/12.png" width="500" height="500"/><br>
 <img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/13.png" width="500" height="500"/><br>
 <img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/14.png" width="500" height="500"/><br>
 <img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/15.png" width="500" height="500"/><br>
