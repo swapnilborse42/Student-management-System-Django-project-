@@ -28,20 +28,20 @@ Parents - This is the pannel for parents. parents can access parents pannel by l
 Anyone visits site can submit feedback for collage.
 
 # packages installed in virtial environment with there version
-astroid==2.2.5
-colorama==0.4.1
-Django==2.2.5
-django-pgfields==1.4.4
-isort==4.3.21
-lazy-object-proxy==1.4.2
-mccabe==0.6.1
-psycopg2==2.8.3
-pylint==2.3.1
-pytz==2019.2
-six==1.12.0
-sqlparse==0.3.0
-typed-ast==1.4.0
-wrapt==1.11.2
+astroid==2.2.5 <br>
+colorama==0.4.1 <br><br>
+Django==2.2.5<br>
+django-pgfields==1.4.4<br>
+isort==4.3.21<br>
+lazy-object-proxy==1.4.2<br>
+mccabe==0.6.1<br>
+psycopg2==2.8.3<br>
+pylint==2.3.1<br>
+pytz==2019.2<br>
+six==1.12.0<br>
+sqlparse==0.3.0<br>
+typed-ast==1.4.0<br>
+wrapt==1.11.2<br>
 
 # setup 
 1. Download project zip and extract it.<br>
