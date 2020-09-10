@@ -28,3 +28,4 @@ Parents - This is the pannel for parents. parents can access parents pannel by l
 Anyone visits site can submit feedback for collage.
 
 
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/1.png" width="500" height="500"/><br>
