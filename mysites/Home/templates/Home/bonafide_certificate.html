@@ -1,0 +1,50 @@
+{% block content %}
+
+<center>
+<html>
+      <head>
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+                  <script type="text/javascript">
+                
+                  var doc = new jsPDF();
+                  var specialElementHandlers = {
+                      '#editor': function (element, renderer) {
+                          return true;
+                      }
+                  };
+                  
+                  $('#cmd').click(function () {
+                      doc.fromHTML($('#content').html(), 100, 100, {
+                          'width': 1000,
+                              'elementHandlers': specialElementHandlers
+                      });
+                      doc.save('sample-file.pdf');
+                  });
+            </script>
+            </head>
+<body>
+<div id="content">
+<div style="width:800px; height:600px; padding:20px; text-align:center; border: 10px solid #787878">
+        <div style="width:750px; height:550px; padding:20px; text-align:center; border: 5px solid #787878">
+               <span style="font-size:50px; font-weight:bold"><u>Bonafide Certificate</u></span>
+               <br><br><br><br><br>
+               <span style="font-size:25px"><i>This is to certify that MR/MRs <b>{{students.first_name}}</b> <b>{{students.last_name}}</b> [REG NO:<b>{{students.PRN}}]</b>is a bonafide student of Pune Vidyarthi Griha's College of Engineering, studying <b>{{students.branch}}</b>  Engineering.</i></span>
+               <br><br>
+               <span style="font-size:25px"><i>He/She is reliable, sincere, hardworking and bears a good moral character.His/her Date Of Birth is<b> {{students.dob}}</b></i></span><br/><br/>
+               <br><br><br>
+               <span style="font-size:25px"><i><p align="right"> _______________</p></i></span>
+               <span style="font-size:25px"><i><p align="right">head of department</p></i></span>
+               <span style="font-size:25px"><i><p align="right">{{date}}</p></i></span><br>
+               <div id="editor"></div>
+               <button id="cmd">generate PDF</button>
+               
+
+              
+        </div>
+        </div>
+        </div>
+      </body>
+        </html>
+      </center>
+        {% endblock %}

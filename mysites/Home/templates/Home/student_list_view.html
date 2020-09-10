@@ -1,0 +1,35 @@
+{%extends "Home/base_teacher.html"%}
+{% block content%}
+
+<table>
+    <td><form action="{% url 'student_view1' %}">
+        <button type="submit" name=year value="FE" class="btn btn-primary">First Year</button>
+    </form></td>
+    <td><form action="{% url 'attendance2' %}">
+        <button type="submit" name=year value="SE" class="btn btn-primary">Second Year</button>
+    </form></td>
+    <td><form action="{% url 'attendance3' %}">
+        <button type="submit" name=year value="TE" class="btn btn-primary">Third Year</button>
+    </form></td>
+    <td><form action="{% url 'attendance4' %}">
+        <button type="submit" name=year value="BE" class="btn btn-primary">Forth Year</button>
+    </form></td>
+</table>
+        {% for student in students %}
+            <article class="media content-section">
+                    <div class="media-body">
+                      <div class="article-metadata">
+                        <p class="mr-2" >Email:{{student.email}}</p>
+                      </div>
+                      <h2><p class="article-title">Name:{{student.first_name}} {{student.last_name}}</p></h2>
+                      <div class="article-content">
+                          <p>DOB:{{student.dob}}</p>  
+                          <p>Mobile:{{student.mobile_no}}</p>  
+                          <p>Gender:{{student.gender}}</p>
+                      </div>
+                      <a href="delete/11111111"><button type="button" class="btn btn-danger">Delete</button></a>
+                      <button type="button" class="btn btn-secondary" onabort="">Update</button>
+                    </div>
+                  </article>
+        {% endfor %}
+{% endblock content %}

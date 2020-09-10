@@ -1,0 +1,36 @@
+{%extends "Home/base_student.html"%}
+{% block content%}
+<marquee  direction="right">
+    <h4 style="color:blue">Notification - {{notif.subject_name}}</h4>
+</marquee>
+            <article class="media content-section">
+                    <div class="media-body">
+                      <div class="article-metadata">
+                        <p class="mr-2" ><h3>Email:{{student.email}}</h3></p>
+                      </div><br>
+                      <h4><p class="article-title"> Name : {{student.first_name}} {{student.last_name}}</p></h4>
+                      <div class="article-content">
+                          <p><b>PRN : {{student.PRN}}</b></p>
+                          <p><b>Date of Birth : {{student.dob}}</b></p>  
+                          <p><b>Mobile : {{student.mobile_no}}</b></p>  
+                          <p><b>Gender : {{student.gender}}</b></p>
+                      </div>
+                      <a href="{%url 'update_student' student.PRN %}"><button type="button" class="btn btn-danger">Update</button></a>
+                      <a href="{%url 'bonafide_certificate' student.PRN %}"><button type="button" class="btn btn-danger">Bonafide Certificate</button></a>
+                    </div>
+                  </article>
+                  <article class="media content-section">
+                      <div class="media-body">
+                        <div class="article-metadata">
+                            <p class="mr-2" ><h3>Attendance</h3></p>
+                        </div><br>
+                        <div class="article-content">
+                            <p><b>{{student.first_name}} you have attended {{atten}} lectures today</b></p>
+                            <p><b>Math:{{math}}</b></p>
+                            <p><b>Coa:{{coa}}</b></p>
+                        </div>
+                        
+                      </div>
+                    </article>
+
+{% endblock content %}
