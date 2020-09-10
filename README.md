@@ -29,3 +29,22 @@ Anyone visits site can submit feedback for collage.
 
 
 <img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/1.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/2.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/3.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/4.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/5.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/6.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/7.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/8.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/9.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/10.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/11.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/21.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/13.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/14.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/15.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/16.png" width="500" height="500"/><br>
+<img src="https://github.com/swapnilborse42/Student-management-System-Django-project-/blob/master/images/17.png" width="500" height="500"/><br>
+
+
+
